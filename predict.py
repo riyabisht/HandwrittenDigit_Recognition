@@ -56,7 +56,8 @@ bg_color = "#000000"
 #bg_color = st.sidebar.color_picker("Background color hex: ", "#eee")
 #bg_image = st.sidebar.file_uploader("Background image:", type=["png", "jpg"])
 #"""
-realtime_update = st.sidebar.checkbox("Update in realtime", True)
+realtime_update = st.sidebar.checkbox("Update in realtime", True).
+st.sidebar.write("Made by Riya Bisht ")
 
 # Create a canvas component
 canvas_result = st_canvas(
@@ -74,13 +75,7 @@ canvas_result = st_canvas(
 )
 
 # Do something interesting with the image data and paths
-st.markdown("""
-<style>
-.big-font{
-    font-size:300px !important;
-}
-</style>""",unsafe_allow_html=True)
-path = "/media/riya/riya/BTech/6/miniproject/images"
+
 if canvas_result.image_data is not None:
     input_numpy_array = np.array(canvas_result.image_data)
     input_image = Image.fromarray(input_numpy_array.astype('uint8'),'RGBA')
