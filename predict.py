@@ -56,7 +56,7 @@ bg_color = "#000000"
 #bg_color = st.sidebar.color_picker("Background color hex: ", "#eee")
 #bg_image = st.sidebar.file_uploader("Background image:", type=["png", "jpg"])
 #"""
-realtime_update = st.sidebar.checkbox("Update in realtime", True).
+realtime_update = st.sidebar.checkbox("Update in realtime", True)
 st.sidebar.write("Made by Riya Bisht ")
 
 # Create a canvas component
