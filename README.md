@@ -21,7 +21,7 @@ I have achieved an accuracy of 99%
 
 ## Deployment
 
-![result](./images/result.png)
+![result](./images/result1.png)
 Have a look [here](https://share.streamlit.io/riyabisht/handwrittendigit_recognition/predict.py) <br>
 I have deploy my model on streamlit [find code here](predict.py)  
 
