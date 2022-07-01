@@ -27,42 +27,19 @@ I have deploy my model on streamlit [find code here](predict.py)
 
 ![accuracy](./images/accuracy.png)
 
-## install Steamlit on Lunix
+## Setup
 
-* On Ubantu install `python 3`
+- On Ubuntu install `python 3` `sudo apt-get install python3-pip`
+- install `pipenv` 
+- pipenv - Pipenv is a tool that aims to bring the best of all packaging worlds (bundler, composer, npm, cargo, yarn, etc.) to the Python world. 
+ `pip3 install pipenv`
+- Create a new environment with Steamlit
+- Navigate to your project folder `cd myproject`
+- Create a new Pipenv environment in that folder and activate that environment: `pipenv shell`
+- `pipefile` will appear in `myprojects/` environment and its dependencies are declare in this file.
+- Install Streamlit in your environment  `pip install streamlit` or `pipenv install streamlit`
+- Test that the installation worked <br>this  will open in your browser `streamlit hello`
 
-```
-sudo apt-get install python3-pip
-```
-* install `pipenv`
-pipenv - Pipenv is a tool that aims to bring the best of all packaging worlds (bundler, composer, npm, cargo, yarn, etc.) to the Python world. 
-
-```
-pip3 install pipenv
-```
-* Create a new environment with Steamlit
-    
-    - Navigate to your project folder
-    ```
-    cd myproject
-    ```
-    - Create a new Pipenv environment in that folder and activate that environment:
-    ```
-    pipenv shell
-    ```
-    `pipefile` will appear in `myprojects/`<br>
-    environment and its dependencies are declare in this file.
-
-    - Install Streamlit in your environment 
-    ```
-    pip install streamlit 
-    or
-    pipenv install streamlit
-    ```
-    - Test that the installation worked <br>this  will open in your browser
-    ```
-    streamlit hello
-    ```
 
 ## Use your new environment
 
